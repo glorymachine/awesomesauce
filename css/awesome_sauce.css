@@ -1,0 +1,22 @@
+body {
+    background-image: url("/images/retina_wood.png");
+}
+
+.imgLoading {
+  background-image: url('/images/loading_spinner.gif');
+}
+
+.shadow{
+    -moz-box-shadow: 3px 3px 4px #ccc;
+    -webkit-box-shadow: 3px 3px 4px #ccc;
+    box-shadow: 3px 3px 4px #ccc; /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#cccccc')"; /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength = 4, Direction = 135, Color = '#cccccc');
+}
+
+/* Don't print link hrefs */
+@media print {
+  a[href]:after {
+    content: ""
+  }
+}
