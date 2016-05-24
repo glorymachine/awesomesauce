@@ -16,13 +16,8 @@
             <li <?=echoActiveClassIfRequestMatches("newtabs")?>><a href="newtabs.php">Launch New Tabs</a></li>
             <li <?=echoActiveClassIfRequestMatches("listonly")?>><a href="listonly.php">List Only</a></li>
             <li <?=echoActiveClassIfRequestMatches("downloadimages")?>><a href="downloadimages.php">Download Main Images</a></li>
+            <li <?=echoActiveClassIfRequestMatches("download-all-images")?>><a href="download-all-images.php">Download All Images</a></li>
             <li><a href="/indesign/index.html" target="_blank">InDesign</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Special <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="newtabs-ab-test.php">Appliances Tier Test</a></li>
-              </ul>
-            </li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
